@@ -1,0 +1,24 @@
+server:
+  port: 6868
+
+
+project:
+  version: 1.0.0
+
+spring:
+  kafka:
+    bootstrap-servers: 192.168.110.153:9092,192.168.110.154:9092,192.168.110.155:9092
+    # 监听器配置
+    listener:
+      #应答模式 1.MANUAL_IMMEDIATE: 逐一提交offset，需要手动应答,
+      #2.MANUAL: 等完成一次轮询后，统一提交offset,需要手动应答;
+      #3.RECORD：监听器消费后，自动提交offset
+      ack-mode: MANUAL_IMMEDIATE
+    producer:
+      # -1(或者是all)：producer需要等待ISR中的所有follower都确认接收到数据后才算一次发送完成，可靠性最高
+      acks: all
+      # 重试次数
+      retries: 10000
+    consumer:
+      group-id: KATEST_DEMO
+      enable-auto-commit: false
