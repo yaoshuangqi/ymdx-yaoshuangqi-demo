@@ -20,11 +20,14 @@
         <module>ymdx-test-apollo</module>
         <module>ymdx-test-kafka</module>
         <module>ymdx-test-redisson</module>
+        <module>ymdx-test-rabbitmq</module>
+        <module>ymdx-ymx-pay-test</module>
     </modules>
 
     <!--父类jar包管理-->
     <dependencyManagement>
         <dependencies>
+
             <dependency>
                 <groupId>com.ymdx</groupId>
                 <artifactId>ymdx-common-common</artifactId>

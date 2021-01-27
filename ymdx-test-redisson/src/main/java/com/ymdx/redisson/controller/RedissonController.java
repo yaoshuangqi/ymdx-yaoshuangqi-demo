@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author YaoShuangQi
  * @version 1.0.0
@@ -42,5 +44,31 @@ public class RedissonController {
         }
         System.out.println(Thread.currentThread().getName() + " 返回结果");
         return "SUCCESS";
+    }
+
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public String test() {
+        RLock rLock = redissonClient.getLock("test");
+        System.out.println(Thread.currentThread().getName() + " 进入方法");
+        Boolean isLock;
+        try {
+            //最多等待10秒拿锁，如果占用锁后，10秒后自动释放
+            isLock = rLock.tryLock(10,10, TimeUnit.SECONDS);
+            if (isLock) {
+                try {
+                    System.out.println(Thread.currentThread().getName() + " 开始执行");
+                    Thread.sleep(8000);
+                }  finally {
+                    System.out.println(Thread.currentThread().getName() + " 执行完成，解锁");
+                    if (rLock.isLocked()) {
+                        rLock.unlock();
+                    }
+                }
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(Thread.currentThread().getName() + " 返回结果");
+        return "TEST OF SUCCESS !!!!";
     }
 }
