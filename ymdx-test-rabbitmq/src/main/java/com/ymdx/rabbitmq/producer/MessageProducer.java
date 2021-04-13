@@ -1,5 +1,7 @@
 package com.ymdx.rabbitmq.producer;
 
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.MessagePostProcessor;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.InitializingBean;
@@ -73,16 +75,24 @@ public class MessageProducer implements InitializingBean {
         String messageId = UUID.randomUUID().toString();
         //id + 时间戳 全局唯一
         CorrelationData correlationData = new CorrelationData(messageId);
-        System.out.println("发送数据到交换机  {}  routeKey  {}   msg {} "+ "exchange-1"+"queue-1====》"+ msg);
-        rabbitTemplate.convertAndSend("exchange-1", "ysq.test", msg, correlationData);
+        //System.out.println("发送数据到交换机  {}  routeKey  {}   msg {} "+ "exchange-1"+"queue-1====》"+ msg);
+        rabbitTemplate.convertAndSend("exchange-1", "ysq.test", msg, new MessagePostProcessor() {
+            @Override
+            public org.springframework.amqp.core.Message postProcessMessage(org.springframework.amqp.core.Message message) throws AmqpException {
+                message.getMessageProperties().setHeader("key1", "请求头中的测试1");
+                message.getMessageProperties().setHeader("key2", "请求头中的测试2");
+                return message;
 
-        System.out.println("数据发送完成" );
+            }
+        }, correlationData);
+
+        //System.out.println("数据发送完成" );
 
         //同步得到发送的结果 两个属性  一个为ack  一个为错误信息
         //这里只能判断 消息是否正常发送到交换机，无法保证消息是否正确写入队列
         try {
             CorrelationData.Confirm confirm = correlationData.getFuture().get(1, TimeUnit.SECONDS);
-            System.out.println("数据发送完成 confirm : "+confirm);
+            System.out.println("生产者数据发送完成 confirm : "+confirm);
         } catch (Exception e) {
             e.printStackTrace();
         }

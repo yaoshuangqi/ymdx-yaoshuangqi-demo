@@ -18,4 +18,9 @@ spring:
         acknowledge-mode: manual  #签收模式-手工签收
         concurrency: 5 #监听限制 默认为5，最大为10
         max-concurrency: 10
-
+        retry:
+          enabled: true #开启消息重试
+          max-attempts: 3 #最大重试次数（包含本身消费的1次）
+          #multiplier: 3 #重试衰减时间因子
+          initial-interval: 3000 #重试间隔时间（单位毫秒）
+        default-requeue-rejected: false #设置false 会丢弃消息或者重新发布到死信队列
