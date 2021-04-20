@@ -8,9 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ymdx-test-redisson" />
-        <module name="ymdx-test-apollo" />
-        <module name="ymdx-test-kafka" />
+        <module name="ymdx-test-pay-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ymdx-test-apollo" target="1.5" />
+      <module name="ymdx-test-kafka" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ymdx-test-pay-server" options="-parameters" />
+      <module name="ymdx-test-redisson" options="-parameters" />
+    </option>
   </component>
 </project>

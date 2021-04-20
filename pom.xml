@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <!--引用公司公共jar包-->
     <parent>
-        <artifactId>ymdx-common</artifactId>
-        <groupId>com.ymdx</groupId>
-        <version>1.3.4</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -17,24 +17,25 @@
 
     <description>测试项目</description>
     <modules>
-        <module>ymdx-test-apollo</module>
-        <module>ymdx-test-kafka</module>
         <module>ymdx-test-redisson</module>
+        <module>ymdx-test-pay-server</module>
     </modules>
 
     <!--父类jar包管理-->
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.ymdx</groupId>
-                <artifactId>ymdx-common-common</artifactId>
-                <version>1.3.4</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>2.0.0.RELEASE</version>
             </dependency>
+
             <dependency>
-                <groupId>com.ymdx</groupId>
-                <artifactId>ymdx-common-apollo</artifactId>
-                <version>1.3.4</version>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>3.14.0</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

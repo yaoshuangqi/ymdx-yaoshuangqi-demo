@@ -9,29 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ymdx-test-apollo</artifactId>
+    <groupId>ymdx.ysq.com</groupId>
+    <artifactId>ymdx-test-pay-server</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.2.5.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>com.ymdx</groupId>
-            <artifactId>ymdx-common-common</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.ymdx</groupId>
-            <artifactId>ymdx-common-apollo</artifactId>
-        </dependency>
-
-        <!--<dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>1.17</version>
-        </dependency>-->
     </dependencies>
-
 </project>
