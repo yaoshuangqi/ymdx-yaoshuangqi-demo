@@ -4,34 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/PayTestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/PayServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="复查代码；">
+      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/demo/FlyBookNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/resources/appication.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/src/test/java/com/xxcx/test/ChatbotSend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-apollo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-apollo/src/main/java/com/ymdx/apollo/ApolloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-apollo/src/main/java/com/ymdx/apollo/comtroller/ApolloSimpleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-apollo/src/main/resources/apollo-env.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-apollo/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-apollo/ymdx-test-apollo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/src/main/java/com/ymdx/kafka/KafkaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/src/main/java/com/ymdx/kafka/demo/KafkaConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/src/main/java/com/ymdx/kafka/demo/KafkaProducerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/target/classes/com/ymdx/kafka/KafkaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/target/classes/com/ymdx/kafka/demo/KafkaConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/target/classes/com/ymdx/kafka/demo/KafkaProducerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-kafka/ymdx-test-kafka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-redisson/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-redisson/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-redisson/target/classes/com/ymdx/redisson/RedissonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-redisson/target/classes/com/ymdx/redisson/RedissonApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -68,7 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ymdx-test-apollo/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../whxd-admin-actuator" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,7 +61,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.34367815" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -88,7 +71,20 @@
       <recent name="E:\Yaosq\project\idea-demo\ymdx-yaoshuangqi-demo\ymdx-test-apollo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RedissonApplication">
+  <component name="RunManager" selected="Application.ChatbotSend">
+    <configuration name="ChatbotSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxcx.test.ChatbotSend" />
+      <module name="ymdx-test-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxcx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedissonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ymdx.redisson.RedissonApplication" />
       <module name="ymdx-test-redisson" />
@@ -102,31 +98,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApolloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ymdx-test-apollo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ymdx.apollo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ymdx.apollo.ApolloApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ymdx-test-kafka" />
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ymdx-test-admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ymdx.kafka.*" />
+          <option name="PATTERN" value="com.xxcx.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ymdx.kafka.KafkaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxcx.admin.AdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,12 +141,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.RedissonApplication" />
+      <item itemvalue="Application.ChatbotSend" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.RedissonApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatbotSend" />
+        <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Spring Boot.RedissonApplication" />
         <item itemvalue="Application.RedissonApplication" />
-        <item itemvalue="Spring Boot.KafkaApplication" />
-        <item itemvalue="Spring Boot.ApolloApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +185,19 @@
       <workItem from="1618895238664" duration="161000" />
       <workItem from="1618898579216" duration="1017000" />
       <workItem from="1618899635986" duration="4624000" />
+      <workItem from="1618908796424" duration="2638000" />
+      <workItem from="1618990412092" duration="7507000" />
+      <workItem from="1619057399804" duration="5110000" />
+      <workItem from="1619164443314" duration="3572000" />
     </task>
+    <task id="LOCAL-00001" summary="复查代码；">
+      <created>1618908842920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618908842920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +214,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="复查代码；" />
+    <option name="LAST_COMMIT_MESSAGE" value="复查代码；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

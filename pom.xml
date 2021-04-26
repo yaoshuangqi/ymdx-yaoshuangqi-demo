@@ -19,6 +19,7 @@
     <modules>
         <module>ymdx-test-redisson</module>
         <module>ymdx-test-pay-server</module>
+        <module>ymdx-test-admin</module>
     </modules>
 
     <!--父类jar包管理-->

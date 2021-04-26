@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ymdx-test-admin" />
         <module name="ymdx-test-redisson" />
         <module name="ymdx-test-pay-server" />
       </profile>
@@ -18,6 +19,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ymdx-test-admin" options="-parameters" />
       <module name="ymdx-test-pay-server" options="-parameters" />
       <module name="ymdx-test-redisson" options="-parameters" />
     </option>
