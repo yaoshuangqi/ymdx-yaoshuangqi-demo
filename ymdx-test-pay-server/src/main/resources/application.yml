@@ -1,0 +1,19 @@
+
+spring:
+  # rabbit 配置信息
+  rabbitmq:
+    host: 192.168.110.136
+    port: 5672
+    username: admin
+    password: fanjie123
+    # 虚拟host 可以不设置,使用server默认host
+    virtual-host: xxcx_test
+    publisher-returns: true
+    publisher-confirm-type: CORRELATED
+    listener:
+      simple:
+        acknowledge-mode: manual
+        concurrency: 4
+
+server:
+  port: 8877
