@@ -25,7 +25,7 @@ public class AdminApplication {
 
     }
 
-    @Configuration
+    //@Configuration
     public static class NotifierConfiguration {
         @Bean
         @ConditionalOnMissingBean

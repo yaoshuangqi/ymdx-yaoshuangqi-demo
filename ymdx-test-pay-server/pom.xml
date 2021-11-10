@@ -39,5 +39,11 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
+        <!-- skyWalking中的日志记录id-->
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-trace</artifactId>
+            <version>6.5.0</version>
+        </dependency>
     </dependencies>
 </project>

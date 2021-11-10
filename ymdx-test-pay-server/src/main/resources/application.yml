@@ -7,7 +7,7 @@ spring:
     username: admin
     password: fanjie123
     # 虚拟host 可以不设置,使用server默认host
-    virtual-host: xxcx_test
+    virtual-host: zzcx_test
     publisher-returns: true
     publisher-confirm-type: CORRELATED
     listener:

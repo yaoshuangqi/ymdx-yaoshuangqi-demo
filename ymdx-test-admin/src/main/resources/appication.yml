@@ -1,0 +1,10 @@
+server:
+  port: 8788
+
+spring:
+  boot:
+    admin:
+      notify:
+        flybook:
+          ignore-changes: '""'
+          webhook-url: https://open.feishu.cn/open-apis/bot/v2/hook/942ff8ea-b5e2-4bf0-a6e1-33f58fc58b82
