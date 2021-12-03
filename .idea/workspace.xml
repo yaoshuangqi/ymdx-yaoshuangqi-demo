@@ -4,24 +4,27 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="pay服务测试；">
-      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/controller/AspectTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/resources/appication.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/dto/AlarmMessageDto.java" afterDir="false" />
+    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="补充；">
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/UnionPayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/BaseHttpSSLSocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/CertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/SDKConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/SecureUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/UnionHttpUitl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/UnionRespUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/UnionSignUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-process/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-process/src/main/java/com/ysq/process/ProcessApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-process/src/main/java/com/ysq/process/task_runner/ABProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-process/src/main/java/com/ysq/process/task_runner/ExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-process/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/AdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/demo/FlyBookNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-admin/src/main/java/com/xxcx/admin/demo/FlyBookNotifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ymdx-test-pay-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-pay-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/PayTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/PayTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/PayServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/PayServerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/mq/RabbitMqTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/mq/MRabbitMqTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-redisson/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-redisson/target/classes/com/ymdx/redisson/RedissonApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-redisson/target/classes/com/ymdx/redisson/controller/RedissonController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +78,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.34367815" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -92,26 +95,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-pay-server\src\main\java\com\xxcx\pay\untionUtil" />
+      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-process\src\main\java\com\ysq\process\task_runner" />
+      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-process\src\main\resources" />
+      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-pay-server\src\main\java\com\xxcx\pay" />
       <recent name="E:\Yaosq\project\idea-demo\ymdx-yaoshuangqi-demo\ymdx-test-apollo\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxcx.pay.untionUtil" />
       <recent name="com.xxcx.pay.mq" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.PayTestApplication">
-    <configuration name="ChatbotSend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xxcx.test.ChatbotSend" />
-      <module name="ymdx-test-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xxcx.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pay.test.TestDemo" />
       <module name="ymdx-test-pay-server" />
@@ -170,6 +165,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProcessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="ymdx-test-process" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysq.process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ysq.process.ProcessApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedissonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ymdx-test-redisson" />
       <extension name="coverage">
@@ -184,19 +196,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ChatbotSend" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Spring Boot.AdminApplication" />
-      <item itemvalue="Spring Boot.RedissonApplication" />
       <item itemvalue="Spring Boot.PayTestApplication" />
+      <item itemvalue="Spring Boot.ProcessApplication" />
+      <item itemvalue="Spring Boot.RedissonApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.PayTestApplication" />
+        <item itemvalue="Spring Boot.ProcessApplication" />
+        <item itemvalue="Spring Boot.RedissonApplication" />
         <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.ChatbotSend" />
-        <item itemvalue="Spring Boot.RedissonApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +254,9 @@
       <workItem from="1626052672566" duration="601000" />
       <workItem from="1635402767570" duration="3998000" />
       <workItem from="1636341549184" duration="895000" />
+      <workItem from="1636532516816" duration="3176000" />
+      <workItem from="1636593598446" duration="2673000" />
+      <workItem from="1636596406064" duration="39776000" />
     </task>
     <task id="LOCAL-00001" summary="复查代码；">
       <created>1618908842920</created>
@@ -264,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619429206349</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="补充；">
+      <created>1636532566355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636532566355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +308,8 @@
     <MESSAGE value="复查代码；" />
     <MESSAGE value="集成飞书机器人；" />
     <MESSAGE value="pay服务测试；" />
-    <option name="LAST_COMMIT_MESSAGE" value="pay服务测试；" />
+    <MESSAGE value="补充；" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,6 +333,21 @@
           <url>file://$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/PayServerController.java</url>
           <line>77</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/UnionSignUtil.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/UnionPayController.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/UnionSignUtil.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

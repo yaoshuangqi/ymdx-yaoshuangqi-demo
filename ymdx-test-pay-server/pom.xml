@@ -45,5 +45,18 @@
             <artifactId>apm-toolkit-trace</artifactId>
             <version>6.5.0</version>
         </dependency>
+
+
+        <!-- 加密算法提供者 -->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk15on</artifactId>
+            <version>1.49</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.49</version>
+        </dependency>
     </dependencies>
 </project>
