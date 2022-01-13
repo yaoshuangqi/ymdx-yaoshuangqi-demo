@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="一般代码">
-      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/RedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/config/BusinessHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/config/RedisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="测试redis中的key过期事件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/RedisApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +240,7 @@
       <workItem from="1636593598446" duration="2673000" />
       <workItem from="1636596406064" duration="41568000" />
       <workItem from="1638755588320" duration="592000" />
-      <workItem from="1642040820973" duration="7793000" />
+      <workItem from="1642040820973" duration="8612000" />
     </task>
     <task id="LOCAL-00001" summary="复查代码；">
       <created>1618908842920</created>
@@ -292,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642040867489</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="测试redis中的key过期事件">
+      <created>1642056357283</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642056357283</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +316,8 @@
     <MESSAGE value="补充；" />
     <MESSAGE value="云闪付接口测试；已通过" />
     <MESSAGE value="一般代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="一般代码" />
+    <MESSAGE value="测试redis中的key过期事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试redis中的key过期事件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

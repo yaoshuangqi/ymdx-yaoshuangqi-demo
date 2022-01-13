@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**
- * @Desc
+ * @Desc 测试redis中键空间事件
+ * 触发两种事件:
+ * 1.keyspace 对key进行具体操作
+ * 2.keyevent 影响key键名
  * @Author Mr.Yao
  * @Date 2022/1/13 10:31
  * @Version 1.0
