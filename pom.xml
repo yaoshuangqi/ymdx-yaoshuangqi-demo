@@ -21,6 +21,7 @@
         <module>ymdx-test-pay-server</module>
         <module>ymdx-test-admin</module>
         <module>ymdx-test-process</module>
+        <module>ymdx-test-redis</module>
     </modules>
 
     <!--父类jar包管理-->

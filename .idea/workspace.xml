@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="云闪付接口测试；已通过">
+    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="一般代码">
+      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/config/BusinessHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/config/RedisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/PayServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/PayServerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,16 +96,14 @@
       <recent name="com.xxcx.pay.mq" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.PayTestApplication">
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pay.test.TestDemo" />
-      <module name="ymdx-test-pay-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pay.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Spring Boot.RedisApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +159,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ymdx-test-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ymdx.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ymdx.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedissonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ymdx-test-redisson" />
       <extension name="coverage">
@@ -167,19 +186,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestDemo" />
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.PayTestApplication" />
       <item itemvalue="Spring Boot.ProcessApplication" />
       <item itemvalue="Spring Boot.RedissonApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RedisApplication" />
         <item itemvalue="Spring Boot.PayTestApplication" />
         <item itemvalue="Spring Boot.ProcessApplication" />
         <item itemvalue="Spring Boot.RedissonApplication" />
         <item itemvalue="Spring Boot.AdminApplication" />
-        <item itemvalue="Application.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +248,7 @@
       <workItem from="1636593598446" duration="2673000" />
       <workItem from="1636596406064" duration="41568000" />
       <workItem from="1638755588320" duration="592000" />
+      <workItem from="1642040820973" duration="7793000" />
     </task>
     <task id="LOCAL-00001" summary="复查代码；">
       <created>1618908842920</created>
@@ -265,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638494981805</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="一般代码">
+      <created>1642040867489</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642040867489</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +316,8 @@
     <MESSAGE value="pay服务测试；" />
     <MESSAGE value="补充；" />
     <MESSAGE value="云闪付接口测试；已通过" />
-    <option name="LAST_COMMIT_MESSAGE" value="云闪付接口测试；已通过" />
+    <MESSAGE value="一般代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="一般代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,6 +356,11 @@
           <url>file://$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/UnionSignUtil.java</url>
           <line>62</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ymdx-test-redis/src/main/java/com/ymdx/redis/config/BusinessHandle.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
