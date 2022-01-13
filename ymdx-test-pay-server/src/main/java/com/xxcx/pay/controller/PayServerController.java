@@ -1,5 +1,6 @@
 package com.xxcx.pay.controller;
 
+import cn.hutool.core.thread.ThreadUtil;
 import cn.hutool.json.JSONUtil;
 import com.xxcx.pay.dto.AlarmMessageDto;
 import com.xxcx.pay.mq.MRabbitMqTemplate;
@@ -32,7 +33,18 @@ public class PayServerController {
     public String getTraceId90(){
         ActiveSpan.error(new RuntimeException("自定义的一些异常，用于打印到sk日志中"));
         //将生成的traceId放入网关日志记录器中。
-        return TraceContext.traceId();
+
+
+        ThreadUtil.execute(() -> {
+            try {
+                Thread.sleep(3000);
+                log.info("异步执行一些任务");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+
+        return "返回结果："+TraceContext.traceId();
     }
 
     @RequestMapping(value = "/alarm",method = RequestMethod.POST)
