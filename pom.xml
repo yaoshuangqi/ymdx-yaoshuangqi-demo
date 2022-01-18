@@ -22,6 +22,7 @@
         <module>ymdx-test-admin</module>
         <module>ymdx-test-process</module>
         <module>ymdx-test-redis</module>
+        <module>ymdx-test-poi-word</module>
     </modules>
 
     <!--父类jar包管理-->
