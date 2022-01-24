@@ -23,6 +23,7 @@
         <module>ymdx-test-process</module>
         <module>ymdx-test-redis</module>
         <module>ymdx-test-poi-word</module>
+        <module>ymdx-test-esay-rules</module>
     </modules>
 
     <!--父类jar包管理-->
@@ -39,6 +40,7 @@
                 <artifactId>redisson-spring-boot-starter</artifactId>
                 <version>3.14.0</version>
             </dependency>
+
 
         </dependencies>
     </dependencyManagement>
