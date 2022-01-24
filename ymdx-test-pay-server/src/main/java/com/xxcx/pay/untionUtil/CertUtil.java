@@ -59,6 +59,7 @@ public class CertUtil {
 		try {
 			addProvider();//向系统添加BC provider
 			initSignCert();//初始化签名私钥证书
+			log.info(".......地址可能不对，不影响其他测试..........");
 		} catch (Exception e) {
 			log.info("init失败。（如果是用对称密钥签名的可无视此异常。）", e);
 		}

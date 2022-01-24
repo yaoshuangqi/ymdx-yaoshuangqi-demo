@@ -94,4 +94,20 @@ public class PayServerController {
         return "发送成功" + message;
     }
 
+    /**
+     * 支付宝代扣支付测试
+     * @param userOrderId
+     * @return
+     */
+    @RequestMapping(value = "/aliDkPay", method = RequestMethod.GET)
+    public String aliDkPay(@RequestParam String userOrderId){
+        if(StringUtils.isEmpty(userOrderId)){
+            userOrderId = new SimpleDateFormat("yyyyMMddHHmmssSSS").format(new Date()) + new Random().nextInt(9);
+        }
+        String currentTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+        String message = "{\"tenantId\":\"89772020\",\"orgId\":\"897720200081\",\"userId\":\"1484409988296249345\",\"userOrderNo\":\""+userOrderId+"\",\"businessNo\":\"001\",\"electCard\":\"595940303954959493\",\"orderAmount\":1,\"realAmount\":1,\"serviceId\":\"passenger.server.name\",\"routeKey\":\"pay.withhold.notify.routing_key\",\"requestTime\":\""+currentTime+"\"}";
+
+        rabbitMqTemplate.send(message, "passenger.withhold.pay","pay.withhold.pay.exchange");
+        return "发送成功：" + message;
+    }
 }
