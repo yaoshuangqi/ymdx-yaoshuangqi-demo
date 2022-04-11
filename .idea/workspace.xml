@@ -4,10 +4,45 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="easy rules规则引擎几mvel表达式">
+    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="支付代扣测试；">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-data-structure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-data-structure/src/main/java/com/ysq/data/ArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/springmybatis/YsqFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/springmybatis/YsqImportBeanDefinitionRegistrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/springmybatis/YsqMapperScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/springmybatis/YsqMapperScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/BeanConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/BeanNameAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/BeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/ComponentScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/InitializingBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/YsqApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/ymdx-test-spring-resource.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/PayServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/controller/PayServerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/CertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ymdx-test-pay-server/src/main/java/com/xxcx/pay/untionUtil/CertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,10 +73,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://D:/mavenlib/repository/org/jeasy/easy-rules-core/4.0.0/easy-rules-core-4.0.0.jar!/org/jeasy/rules/api/Rule.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/mavenlib/repository/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/mavenlib/repository/com/ymdx/ymdx-common-ssm-spring/1.3.3/ymdx-common-ssm-spring-1.3.3.jar!/com/ymdx/common/base/BaseDto.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/mavenlib/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar!/org/apache/poi/POIXMLDocumentPart.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://D:/mavenlib/repository/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE.jar!/org/springframework/data/redis/listener/adapter/MessageListenerAdapter.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -65,6 +98,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -76,7 +110,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34367815" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -92,17 +126,19 @@
       <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-pay-server\src\main\java\com\xxcx\pay" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ysq.mapper" />
+      <recent name="com.ysq.spring" />
       <recent name="com.xxcx.pay.untionUtil" />
       <recent name="com.xxcx.pay.mq" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.PayTestApplication">
-    <configuration name="ExportDocxUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.poi.test.utils.ExportDocxUtils" />
-      <module name="ymdx-test-poi-word" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ysq.data.ArrayQueueDemo" />
+      <module name="ymdx-data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.poi.test.utils.*" />
+          <option name="PATTERN" value="com.ysq.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.poi.test.utils.PoiTest" />
-      <module name="ymdx-test-poi-word" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ysq.Test" />
+      <module name="ymdx-test-spring-mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.poi.test.utils.*" />
+          <option name="PATTERN" value="com.ysq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RulesAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rules.test.RulesAPITest" />
-      <module name="ymdx-test-esay-rules" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ysq.service.Test" />
+      <module name="ymdx-test-spring-resource" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rules.test.*" />
+          <option name="PATTERN" value="com.ysq.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,15 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,19 +210,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ExportDocxUtils" />
-      <item itemvalue="Application.PoiTest" />
-      <item itemvalue="Application.RulesAPITest" />
       <item itemvalue="Application.MvelTest" />
+      <item itemvalue="Application.ArrayQueueDemo" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.PayTestApplication" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ArrayQueueDemo" />
         <item itemvalue="Spring Boot.PayTestApplication" />
         <item itemvalue="Application.MvelTest" />
-        <item itemvalue="Application.RulesAPITest" />
-        <item itemvalue="Application.ExportDocxUtils" />
-        <item itemvalue="Application.PoiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +275,13 @@
       <workItem from="1642040820973" duration="23799000" />
       <workItem from="1642235972802" duration="36572000" />
       <workItem from="1642556495210" duration="14504000" />
-      <workItem from="1642991758562" duration="1943000" />
+      <workItem from="1642991758562" duration="2733000" />
+      <workItem from="1644369453462" duration="1583000" />
+      <workItem from="1644455370292" duration="1789000" />
+      <workItem from="1645147049620" duration="590000" />
+      <workItem from="1646969090523" duration="437000" />
+      <workItem from="1648535577125" duration="36633000" />
+      <workItem from="1649399050918" duration="20153000" />
     </task>
     <task id="LOCAL-00001" summary="复查代码；">
       <created>1618908842920</created>
@@ -306,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643014080981</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="支付代扣测试；">
+      <created>1643018374938</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643018374938</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +381,8 @@
     <MESSAGE value="测试redis中的key过期事件" />
     <MESSAGE value="补充" />
     <MESSAGE value="easy rules规则引擎几mvel表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy rules规则引擎几mvel表达式" />
+    <MESSAGE value="支付代扣测试；" />
+    <option name="LAST_COMMIT_MESSAGE" value="支付代扣测试；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

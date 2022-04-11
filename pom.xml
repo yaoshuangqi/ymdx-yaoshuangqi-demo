@@ -24,6 +24,8 @@
         <module>ymdx-test-redis</module>
         <module>ymdx-test-poi-word</module>
         <module>ymdx-test-esay-rules</module>
+        <module>ymdx-data-structure</module>
+        <module>ymdx-test-spring-mybatis</module>
     </modules>
 
     <!--父类jar包管理-->
