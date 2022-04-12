@@ -4,41 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="支付代扣测试；">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-data-structure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-data-structure/src/main/java/com/ysq/data/ArrayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/springmybatis/YsqFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/springmybatis/YsqImportBeanDefinitionRegistrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/springmybatis/YsqMapperScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/springmybatis/YsqMapperScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/mapper/MemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/java/com/ysq/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-mybatis/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/UserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/BeanConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/BeanNameAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/BeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/ComponentScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/InitializingBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/src/com/ysq/spring/YsqApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ymdx-test-spring-resource/ymdx-test-spring-resource.iml" afterDir="false" />
+    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="spring源码测试及如何整合mybatis；">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/java/com/ysq/mybatisplus/MybatisPlusApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/java/com/ysq/mybatisplus/common/AccountStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/java/com/ysq/mybatisplus/common/CalcuationEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/java/com/ysq/mybatisplus/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/java/com/ysq/mybatisplus/entity/CountAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/java/com/ysq/mybatisplus/mapper/CountAccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/java/com/ysq/mybatisplus/service/ICountAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/java/com/ysq/mybatisplus/service/impl/CountAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/resources/mapper/CountAccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/test/java/com/ysq/mybatisplus/service/impl/CountAccountServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -54,7 +33,9 @@
       <list>
         <option value="package-info" />
         <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -101,8 +82,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/mavenlib/repository/org/jeasy/easy-rules-core/4.0.0/easy-rules-core-4.0.0-sources.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ymdx-test-mybatis-plus/src/main/resources/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,11 +102,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-mybatis-plus\src\main\resources\mapper" />
+      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-mybatis-plus\src\main\java\com\ysq\mybatisplus" />
+      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-mybatis-plus\src\main\java\com\ysq\mybatisplus\mapper" />
+      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-mybatis-plus\src\main\java\com\ysq\mybatisplus\entity" />
       <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-poi-word\src\main\java\com\poi\test\utils" />
-      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-pay-server\src\main\java\com\xxcx\pay\untionUtil" />
-      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-process\src\main\java\com\ysq\process\task_runner" />
-      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-process\src\main\resources" />
-      <recent name="F:\Yaosq\project\idea_demo\ymdx-yaoshuangqi-demo\ymdx-test-pay-server\src\main\java\com\xxcx\pay" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ysq.mybatisplus.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ysq.mapper" />
@@ -132,59 +121,7 @@
       <recent name="com.xxcx.pay.mq" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ysq.data.ArrayQueueDemo" />
-      <module name="ymdx-data-structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ysq.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MvelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rules.test.MvelTest" />
-      <module name="ymdx-test-esay-rules" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rules.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ysq.Test" />
-      <module name="ymdx-test-spring-mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ysq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ysq.service.Test" />
-      <module name="ymdx-test-spring-resource" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ysq.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CountAccountServiceImplTest.testOptimisticLock">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -196,33 +133,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ymdx-test-pay-server" />
+    <configuration name="CountAccountServiceImplTest.testAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ymdx-test-mybatis-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xxcx.pay.*" />
+          <option name="PATTERN" value="com.ysq.mybatisplus.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxcx.pay.PayTestApplication" />
+      <option name="PACKAGE_NAME" value="com.ysq.mybatisplus.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ysq.mybatisplus.service.impl.CountAccountServiceImplTest" />
+      <option name="METHOD_NAME" value="testAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountAccountServiceImplTest.testOptimisticLock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ymdx-test-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysq.mybatisplus.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysq.mybatisplus.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ysq.mybatisplus.service.impl.CountAccountServiceImplTest" />
+      <option name="METHOD_NAME" value="testOptimisticLock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountAccountServiceImplTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ymdx-test-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysq.mybatisplus.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysq.mybatisplus.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ysq.mybatisplus.service.impl.CountAccountServiceImplTest" />
+      <option name="METHOD_NAME" value="testPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountAccountServiceImplTest.testSelectPageVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ymdx-test-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysq.mybatisplus.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysq.mybatisplus.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ysq.mybatisplus.service.impl.CountAccountServiceImplTest" />
+      <option name="METHOD_NAME" value="testSelectPageVo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountAccountServiceImplTest.testSexEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ymdx-test-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ysq.mybatisplus.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ysq.mybatisplus.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ysq.mybatisplus.service.impl.CountAccountServiceImplTest" />
+      <option name="METHOD_NAME" value="testSexEnum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MvelTest" />
-      <item itemvalue="Application.ArrayQueueDemo" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Spring Boot.PayTestApplication" />
-      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="JUnit.CountAccountServiceImplTest.testAccount" />
+      <item itemvalue="JUnit.CountAccountServiceImplTest.testPage" />
+      <item itemvalue="JUnit.CountAccountServiceImplTest.testSelectPageVo" />
+      <item itemvalue="JUnit.CountAccountServiceImplTest.testOptimisticLock" />
+      <item itemvalue="JUnit.CountAccountServiceImplTest.testSexEnum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ArrayQueueDemo" />
-        <item itemvalue="Spring Boot.PayTestApplication" />
-        <item itemvalue="Application.MvelTest" />
+        <item itemvalue="JUnit.CountAccountServiceImplTest.testOptimisticLock" />
+        <item itemvalue="JUnit.CountAccountServiceImplTest.testSexEnum" />
+        <item itemvalue="JUnit.CountAccountServiceImplTest.testSelectPageVo" />
+        <item itemvalue="JUnit.CountAccountServiceImplTest.testPage" />
+        <item itemvalue="JUnit.CountAccountServiceImplTest.testAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +285,7 @@
       <workItem from="1645147049620" duration="590000" />
       <workItem from="1646969090523" duration="437000" />
       <workItem from="1648535577125" duration="36633000" />
-      <workItem from="1649399050918" duration="20153000" />
+      <workItem from="1649399050918" duration="33016000" />
     </task>
     <task id="LOCAL-00001" summary="复查代码；">
       <created>1618908842920</created>
@@ -353,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643018374938</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="spring源码测试及如何整合mybatis；">
+      <created>1649662667792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649662667792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +393,8 @@
     <MESSAGE value="补充" />
     <MESSAGE value="easy rules规则引擎几mvel表达式" />
     <MESSAGE value="支付代扣测试；" />
-    <option name="LAST_COMMIT_MESSAGE" value="支付代扣测试；" />
+    <MESSAGE value="spring源码测试及如何整合mybatis；" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring源码测试及如何整合mybatis；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -457,7 +469,17 @@
           <line>46</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ymdx-test-mybatis-plus/src/test/java/com/ysq/mybatisplus/service/impl/CountAccountServiceImplTest.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ymdx_yaoshuangqi_demo$CountAccountServiceImplTest_testPage.ic" NAME="CountAccountServiceImplTest.testPage Coverage Results" MODIFIED="1649747056375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ysq.mybatisplus.service.impl.*</FILTER>
+    </SUITE>
   </component>
 </project>

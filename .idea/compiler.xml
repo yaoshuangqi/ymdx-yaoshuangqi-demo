@@ -14,6 +14,7 @@
         <module name="ymdx-test-redisson" />
         <module name="ymdx-test-process" />
         <module name="ymdx-test-poi-word" />
+        <module name="ymdx-test-mybatis-plus" />
         <module name="ymdx-test-esay-rules" />
         <module name="ymdx-test-spring-mybatis" />
       </profile>
@@ -28,6 +29,7 @@
       <module name="ymdx-data-structure" options="-parameters" />
       <module name="ymdx-test-admin" options="-parameters" />
       <module name="ymdx-test-esay-rules" options="-parameters" />
+      <module name="ymdx-test-mybatis-plus" options="-parameters" />
       <module name="ymdx-test-pay-server" options="-parameters" />
       <module name="ymdx-test-poi-word" options="-parameters" />
       <module name="ymdx-test-process" options="-parameters" />

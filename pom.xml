@@ -26,6 +26,7 @@
         <module>ymdx-test-esay-rules</module>
         <module>ymdx-data-structure</module>
         <module>ymdx-test-spring-mybatis</module>
+        <module>ymdx-test-mybatis-plus</module>
     </modules>
 
     <!--父类jar包管理-->

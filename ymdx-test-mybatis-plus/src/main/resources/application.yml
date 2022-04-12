@@ -1,0 +1,17 @@
+spring:
+  # 配置数据源信息
+  datasource:
+    # 配置数据源类型
+    type: com.zaxxer.hikari.HikariDataSource
+    # 配置连接数据库信息
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.110.162:3306/account?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: fanjie
+
+# 配置MyBatis日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  # 配置扫描通用枚举
+  type-enums-package: com.ysq.mybatisplus.common
