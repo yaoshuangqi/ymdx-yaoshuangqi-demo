@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ymdx-test-pay-server" />
         <module name="ymdx-data-structure" />
+        <module name="mine-examination-server" />
         <module name="ymdx-test-admin" />
         <module name="ymdx-test-redis" />
         <module name="ymdx-test-redisson" />
@@ -26,6 +27,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mine-examination-server" options="-parameters" />
       <module name="ymdx-data-structure" options="-parameters" />
       <module name="ymdx-test-admin" options="-parameters" />
       <module name="ymdx-test-esay-rules" options="-parameters" />

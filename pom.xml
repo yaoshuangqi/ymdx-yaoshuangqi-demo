@@ -27,6 +27,7 @@
         <module>ymdx-data-structure</module>
         <module>ymdx-test-spring-mybatis</module>
         <module>ymdx-test-mybatis-plus</module>
+        <module>mine-examination-server</module>
     </modules>
 
     <!--父类jar包管理-->

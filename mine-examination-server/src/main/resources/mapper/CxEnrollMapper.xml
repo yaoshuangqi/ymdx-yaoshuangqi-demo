@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cx.examination.enroll.mapper.CxEnrollMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cx.examination.enroll.entity.CxEnroll">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="enroll_num" property="enrollNum" />
+        <result column="name" property="name" />
+        <result column="sex" property="sex" />
+        <result column="card_no" property="cardNo" />
+        <result column="birthday" property="birthday" />
+        <result column="political" property="political" />
+        <result column="graduated_from" property="graduatedFrom" />
+        <result column="education" property="education" />
+        <result column="street_no" property="streetNo" />
+        <result column="registered_address" property="registeredAddress" />
+        <result column="phone_contact" property="phoneContact" />
+        <result column="plus_item" property="plusItem" />
+        <result column="face_img" property="faceImg" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="remark" property="remark" />
+    </resultMap>
+
+</mapper>
