@@ -1,7 +1,11 @@
 package cx.examination.enroll.common;
 
+import cn.hutool.core.util.StrUtil;
 import com.baomidou.mybatisplus.annotation.EnumValue;
 import lombok.Getter;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Desc 街道编号
@@ -32,6 +36,29 @@ public enum StreetNoEnum {
     StreetNoEnum(String value, String name){
         this.name = name;
         this.value = value;
+    }
+
+    /**
+     * code->enum
+     */
+    private static final Map<String, StreetNoEnum> map = new ConcurrentHashMap<>();
+
+    static {
+        for (StreetNoEnum streetNoEnum : StreetNoEnum.values()) {
+            map.put(streetNoEnum.getValue(), streetNoEnum);
+        }
+    }
+
+    /**
+     * 根据code获取枚举
+     * @param code
+     * @return
+     */
+    public static StreetNoEnum getStreetNoEnum(String code){
+        if(StrUtil.isEmpty(code)){
+            return null;
+        }
+        return map.get(code);
     }
 
 }

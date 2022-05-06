@@ -45,6 +45,10 @@ public class CxUser implements Serializable {
     @TableField("nick_name")
     private String nickName;
 
+    @ApiModelProperty(value = "微信头像url")
+    @TableField("avatar_url")
+    private String avatarUrl;
+
     @ApiModelProperty(value = "授权微信登录，微信openId")
     @TableField("open_id")
     private String openId;

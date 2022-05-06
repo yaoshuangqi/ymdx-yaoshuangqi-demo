@@ -1,5 +1,6 @@
 package cx.examination.enroll;
 
+import com.whxd.saas.core.annotation.EnableGlobalExceptionHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Version 1.0
  */
 @MapperScan({"cx.examination.enroll.mapper"})
+@EnableGlobalExceptionHandler
 @SpringBootApplication
 @Slf4j
 public class EnrollApplication {

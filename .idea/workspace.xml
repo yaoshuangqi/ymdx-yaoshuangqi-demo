@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="增加报考小程序模块">
-      <change afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/common/PoliticalEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/common/StreetNoEnum.java" afterDir="false" />
+    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="补充；">
+      <change afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/model/EnrollDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/model/EnrollShowVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/model/UserDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mine-examination-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/EnrollApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/EnrollApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/common/PoliticalEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/common/PoliticalEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/common/StreetNoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/common/StreetNoEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/controller/EnrollController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/controller/EnrollController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/entity/CxEnroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/entity/CxEnroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/entity/CxUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/entity/CxUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +32,8 @@
         <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -106,11 +115,11 @@
       <recent name="com.ysq.mybatisplus.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cx.examination.enroll.model" />
       <recent name="cx.examination.enroll.common" />
       <recent name="com.ysq.mapper" />
       <recent name="com.ysq.spring" />
       <recent name="com.xxcx.pay.untionUtil" />
-      <recent name="com.xxcx.pay.mq" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.EnrollApplication">
@@ -274,7 +283,7 @@
       <workItem from="1646969090523" duration="437000" />
       <workItem from="1648535577125" duration="36633000" />
       <workItem from="1649399050918" duration="51457000" />
-      <workItem from="1650244018260" duration="6652000" />
+      <workItem from="1650244018260" duration="12805000" />
     </task>
     <task id="LOCAL-00001" summary="复查代码；">
       <created>1618908842920</created>
@@ -367,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651832468554</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="补充；">
+      <created>1651841645835</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651841645835</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +405,6 @@
     <MESSAGE value="复查代码；" />
     <MESSAGE value="集成飞书机器人；" />
     <MESSAGE value="pay服务测试；" />
-    <MESSAGE value="补充；" />
     <MESSAGE value="云闪付接口测试；已通过" />
     <MESSAGE value="一般代码" />
     <MESSAGE value="测试redis中的key过期事件" />
@@ -399,7 +414,8 @@
     <MESSAGE value="spring源码测试及如何整合mybatis；" />
     <MESSAGE value="mybatisPlus测试，并熟悉一些使用；" />
     <MESSAGE value="增加报考小程序模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加报考小程序模块" />
+    <MESSAGE value="补充；" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

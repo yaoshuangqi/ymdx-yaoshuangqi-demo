@@ -19,4 +19,4 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   # 配置扫描通用枚举
-  # type-enums-package: com.ysq.mybatisplus.common
+    type-enums-package: cx.examination.common

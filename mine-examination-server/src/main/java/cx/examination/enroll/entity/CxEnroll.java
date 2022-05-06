@@ -6,6 +6,9 @@ import java.util.Date;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
+
+import cx.examination.enroll.common.PoliticalEnum;
+import cx.examination.enroll.common.StreetNoEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -59,7 +62,7 @@ public class CxEnroll implements Serializable {
 
     @ApiModelProperty(value = "政治面貌")
     @TableField("political")
-    private String political;
+    private PoliticalEnum political;
 
     @ApiModelProperty(value = "毕业院校")
     @TableField("graduated_from")
@@ -71,7 +74,7 @@ public class CxEnroll implements Serializable {
 
     @ApiModelProperty(value = "街道编号")
     @TableField("street_no")
-    private Integer streetNo;
+    private StreetNoEnum streetNo;
 
     @ApiModelProperty(value = "户籍所在地 如：XX街道XX社区XX小区")
     @TableField("registered_address")
