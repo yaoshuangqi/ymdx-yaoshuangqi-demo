@@ -18,6 +18,7 @@ import cx.examination.enroll.service.ICxUserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.models.auth.In;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -37,6 +38,18 @@ public class EnrollController {
 
     @Autowired
     private ICxEnrollService cxEnrollService;
+
+    /**
+     * 获取总报名人数
+     * @return
+     */
+    @ApiOperation("获取总报名人数")
+    @GetMapping("/getEnrollTotal")
+    public Result<String> getEnrollTotal() {
+        long count = cxEnrollService.count();
+        return Result.succeed(String.valueOf(count));
+    }
+
     /**
      * 通过用户id获取报名记录
      * @param userId

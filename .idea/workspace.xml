@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="上传接口；">
+    <list default="true" id="775a48a0-5ba1-489f-8e80-5cba5e5a4bad" name="Default Changelist" comment="补充；">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/controller/EnrollController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine-examination-server/src/main/java/cx/examination/enroll/controller/EnrollController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +271,7 @@
       <workItem from="1646969090523" duration="437000" />
       <workItem from="1648535577125" duration="36633000" />
       <workItem from="1649399050918" duration="51457000" />
-      <workItem from="1650244018260" duration="13533000" />
+      <workItem from="1650244018260" duration="14664000" />
     </task>
     <task id="LOCAL-00001" summary="复查代码；">
       <created>1618908842920</created>
@@ -378,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651847865339</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="补充；">
+      <created>1651848819930</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651848819930</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,9 +416,9 @@
     <MESSAGE value="spring源码测试及如何整合mybatis；" />
     <MESSAGE value="mybatisPlus测试，并熟悉一些使用；" />
     <MESSAGE value="增加报考小程序模块" />
-    <MESSAGE value="补充；" />
     <MESSAGE value="上传接口；" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传接口；" />
+    <MESSAGE value="补充；" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
