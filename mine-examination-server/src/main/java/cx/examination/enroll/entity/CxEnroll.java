@@ -62,7 +62,7 @@ public class CxEnroll implements Serializable {
 
     @ApiModelProperty(value = "政治面貌")
     @TableField("political")
-    private PoliticalEnum political;
+    private String political;
 
     @ApiModelProperty(value = "毕业院校")
     @TableField("graduated_from")

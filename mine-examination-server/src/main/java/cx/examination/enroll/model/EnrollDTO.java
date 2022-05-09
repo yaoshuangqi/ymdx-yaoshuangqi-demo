@@ -22,9 +22,10 @@ public class EnrollDTO implements Serializable {
     private static final long serialVersionUID = 1L;
 
 
-    @ApiModelProperty(value = "用户id")
-    @NotBlank(message = "用户id不能为空")
-    private String userId;
+    @ApiModelProperty(value = "报名号")
+    @NotBlank(message = "报名号不能为空")
+    private String enrollNum;
+
 
     @ApiModelProperty(value = "姓名")
     @NotBlank(message = "姓名不能为空")
@@ -37,10 +38,6 @@ public class EnrollDTO implements Serializable {
     @ApiModelProperty(value = "身份证号")
     @NotBlank(message = "身份证号不能为空")
     private String cardNo;
-
-    @ApiModelProperty(value = "出生日")
-    @NotBlank(message = "出生日不能为空")
-    private Date birthday;
 
     @ApiModelProperty(value = "政治面貌")
     @NotBlank(message = "政治面貌不能为空")
@@ -58,9 +55,11 @@ public class EnrollDTO implements Serializable {
     @NotBlank(message = "街道编号不能为空")
     private String streetNo;
 
-    @ApiModelProperty(value = "户籍所在地 如：XX街道XX社区XX小区")
-    @NotBlank(message = "户籍所在地不能为空")
-    private String registeredAddress;
+    /**
+     * 户籍详细地址
+     */
+    private String streetNoCity;
+
 
     @ApiModelProperty(value = "联系方式")
     @NotBlank(message = "联系方式不能为空")
@@ -71,7 +70,7 @@ public class EnrollDTO implements Serializable {
 
     @ApiModelProperty(value = "电子照片）")
     @NotBlank(message = "电子照片不能为空")
-    private String faceImg;
+    private String picture;
 
     @ApiModelProperty(value = "备注")
     private String remark;

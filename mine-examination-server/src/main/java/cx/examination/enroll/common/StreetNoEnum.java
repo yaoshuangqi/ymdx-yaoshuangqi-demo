@@ -39,26 +39,26 @@ public enum StreetNoEnum {
     }
 
     /**
-     * code->enum
+     * name->enum
      */
     private static final Map<String, StreetNoEnum> map = new ConcurrentHashMap<>();
 
     static {
         for (StreetNoEnum streetNoEnum : StreetNoEnum.values()) {
-            map.put(streetNoEnum.getValue(), streetNoEnum);
+            map.put(streetNoEnum.getName(), streetNoEnum);
         }
     }
 
     /**
-     * 根据code获取枚举
-     * @param code
+     * 根据name获取枚举
+     * @param name
      * @return
      */
-    public static StreetNoEnum getStreetNoEnum(String code){
-        if(StrUtil.isEmpty(code)){
+    public static StreetNoEnum getStreetNoEnumByName(String name){
+        if(StrUtil.isEmpty(name)){
             return null;
         }
-        return map.get(code);
+        return map.get(name);
     }
 
 }
